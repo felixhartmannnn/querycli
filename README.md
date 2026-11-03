@@ -97,11 +97,10 @@ querycli --check 'store.version == 2.0.0' release-manifest.json
 ## Project Structure
 
 ```
-querycli/
-├── querycli.py      # CLI entrypoint, parsers, format handlers
-├── pyproject.toml   # Package metadata, entrypoint, tool config
-├── README.md        # This file
-└── .gitignore       # Python build artifacts and common noise
+.gitignore
+pyproject.toml
+querycli.py
+README.md
 ```
 
 - `querycli.py` — flat single-module implementation: format detection, query parser, runners
